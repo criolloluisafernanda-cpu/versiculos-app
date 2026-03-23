@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versículos para el corazón</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>✨ Versículos para cada momento</h1>
+        <p>¿Cómo te sientes hoy? 💭</p>
+
+        <div class="botones">
+            <button class="feliz" onclick="mostrarVersiculo('feliz')">😊 Feliz</button>
+            <button class="ansioso" onclick="mostrarVersiculo('ansioso')">😰 Ansioso</button>
+            <button class="triste" onclick="mostrarVersiculo('triste')">😢 Triste</button>
+            <button class="desanimado" onclick="mostrarVersiculo('desanimado')">😞 Desanimado</button>
+            <button class="enojado" onclick="mostrarVersiculo('enojado')">😡 Enojado</button>
+            <button class="perdido" onclick="mostrarVersiculo('perdido')">😕 Perdido</button>
+        </div>
+
+
+
+        <div class="versiculo" id="versiculo">
+            <p id="texto">Selecciona una emoción 💖</p>
+        </div>
+
+        <button class="siguiente" onclick="siguienteVersiculo()">
+            🔄 Otro versículo
+        </button>
+        
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
